@@ -1,0 +1,55 @@
+# Classroom Animation with OpenGL
+
+![Classroom Animation](![alt text](image.png)(![alt text](image-1.png)(![alt text](image-2.png)))) *Example screenshot (replace with your own)*
+
+## Description
+This project is a 3D classroom animation built using OpenGL and GLUT. It features a virtual classroom environment with interactive elements including a lecturer, students, a whiteboard, projector, clock, doors, and windows with curtains. The simulation demonstrates various 3D animation techniques and lighting effects.
+
+## Features
+- **Interactive Characters**:
+  - Lecturer (controlled with arrow keys)
+  - Student (controlled with WASD keys)
+- **Classroom Elements**:
+  - Whiteboard with text
+  - Projector with adjustable light
+  - Digital clock showing real time
+  - Opening/closing door
+  - Windows with curtains
+- **Lighting Controls**:
+  - Classroom lighting toggle
+  - Projector spotlight toggle
+- **Animation Effects**:
+  - Lecturer arm movements
+  - Automatic movement mode
+  - Student exit/enter sequences
+- **Camera Controls**:
+  - Rotatable view
+  - Zoom in/out functionality
+
+## Controls
+| Key | Action |
+|-----|--------|
+| **Arrow Keys** | Move lecturer |
+| **WASD** | Move student |
+| **,** and **.** | Rotate camera view |
+| **G/H** | Zoom in/out |
+| **C** | Toggle clock visibility |
+| **P** | Toggle projector light |
+| **B** | Toggle classroom lights |
+| **O** | Open/close door |
+| **K** | Open/close curtains |
+| **Space** | Toggle automatic movement |
+| **E** | Start students exiting |
+| **R** | Start students entering |
+
+## Requirements
+- C++ compiler (GCC, Clang, or MSVC)
+- OpenGL libraries
+- GLUT (OpenGL Utility Toolkit)
+
+## Installation
+1. Ensure you have OpenGL and GLUT installed on your system
+2. Clone this repository or download the source files
+3. Compile the program:
+   ```bash
+   g++ main.cpp -o classroom -lGL -lGLU -lglut
